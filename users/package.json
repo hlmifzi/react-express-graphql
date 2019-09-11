@@ -1,0 +1,27 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "firtsGraphql",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.4.2",
+    "json-server": "^0.15.0",
+    "lodash": "^4.17.14",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tes",
+    "start": "node server.js",
+    "json:server": "json-server --watch db.json",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "hlmifzi",
+  "license": "ISC"
+}
